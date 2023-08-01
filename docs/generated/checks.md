@@ -341,6 +341,15 @@ minReplicas: 2
 group: extensions
 version: v1beta.+
 ```
+## no-job-ttl-seconds
+
+**Enabled by default**: Yes
+
+**Description**: Indicates when jobs do not set spec.ttlSecondsAfterFinished.
+
+**Remediation**: set spec.ttlSecondsAfterFinished.
+
+**Template**: [no-job-ttl-seconds](templates.md#no-job-ttl-service)
 ## no-liveness-probe
 
 **Enabled by default**: No

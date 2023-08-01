@@ -501,6 +501,15 @@ KubeLinter supports the following templates:
 **Supported Objects**: DeploymentLike
 
 
+## No Job TTL Service
+
+**Key**: `no-job-ttl-seconds`
+
+**Description**: Flag jobs that do not set spec.ttlSecondsAfterFinished
+
+**Supported Objects**: DeploymentLike
+
+
 ## Node Affinity
 
 **Key**: `no-node-affinity`

@@ -21,6 +21,7 @@ var (
 		"mismatching-selector",
 		"no-anti-affinity",
 		"no-extensions-v1beta",
+		"no-job-ttl-seconds",
 		"no-read-only-root-fs",
 		"non-existent-service-account",
 		"pdb-max-unavailable",

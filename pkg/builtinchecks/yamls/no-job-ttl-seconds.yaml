@@ -1,0 +1,7 @@
+name: "no-job-ttl-seconds"
+description: "Indicates when jobs do not set spec.ttlSecondsAfterFinished."
+remediation: "set spec.ttlSecondsAfterFinished."
+scope:
+  objectKinds:
+    - Any
+template: "no-job-ttl-seconds"
